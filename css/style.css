@@ -1,0 +1,53 @@
+/*los tres tipos de selectores basicos que tenemos en css
+etiqueta 
+identificadores
+clases
+*/
+/*alt shift flecha cpia y pega*/
+
+body {
+    background-color: honeydew;
+    color: hotpink;
+    font-family: 'Onest', sans-serif;
+    /*estilodeetiqueta
+    ejemplo, body, p, a(para links)
+    se utilizan para imagenes tambien*/
+}
+a{
+    color: hotpink;
+}
+
+
+#titulo
+{
+    background-color: aliceblue;
+    text-align: center;
+    color: aquamarine;
+/*estiloporidentificador
+es para elementos particulares
+*/
+}
+
+.text-center
+{
+    text-align: center;
+    /*estilo por clases*/
+}
+
+.uwu
+{
+    background-color: aqua;
+    color: aliceblue;
+}
+
+img {
+    max-width: 100%;
+}
+.container
+{
+    
+    max-width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
