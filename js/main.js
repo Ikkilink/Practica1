@@ -24,5 +24,6 @@ $bottondark.addEventListener("click", function(e)
     document.body.style.backgroundColor = "black";
     document.body.style.color = "white";
 })
-
+var myCarousel = document.querySelector('#myCarousel')
+var carousel = new bootstrap.Carousel(myCarousel)
 //leer json asyn function
