@@ -15,14 +15,14 @@ let $bottondark =document.querySelector("#button-dark")
 
 $bottonlight.addEventListener("click", function(e)
 {
-    document.body.style.backgroundColor = "yellow";
-    document.body.style.color = "black";
+    document.body.style.backgroundColor = "honeydew";
+    document.body.style.color = "hotpink";
 })
 
 $bottondark.addEventListener("click", function(e)
 {
     document.body.style.backgroundColor = "black";
-    document.body.style.color = "white";
+    document.body.style.color = "pink";
 })
 var myCarousel = document.querySelector('#myCarousel')
 var carousel = new bootstrap.Carousel(myCarousel)
