@@ -49,6 +49,7 @@ img {
 {
     max-width: 55%;
     margin-right: 50%;
+    padding-left: 0%;
 }
 .container2
 {
@@ -57,7 +58,7 @@ img {
     margin-left: auto;
     float: right; 
     margin: 30px; 
-    margin-top: 6%;
+    margin-top: 15%;
 }
 .size {
     max-width: 50%;
@@ -90,9 +91,9 @@ table, th, td {
 
 .container3
 {
-    
-   
-   
     float: left; 
     margin: 30px; 
 }
+
+
+

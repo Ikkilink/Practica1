@@ -24,6 +24,48 @@ $bottondark.addEventListener("click", function(e)
     document.body.style.backgroundColor = "black";
     document.body.style.color = "pink";
 })
-var myCarousel = document.querySelector('#myCarousel')
-var carousel = new bootstrap.Carousel(myCarousel)
+
 //leer json asyn function
+
+async function obtenerDatos() {
+    let respuesta = await fetch("js/data.json");
+    let datos = await respuesta.json();
+    let $info = document.querySelector("#info");
+
+  $info.innerHTML = `
+    <table border="1">
+      <tr>
+        <td>Nombre</td>
+        <td>${datos.nombre}</td>
+      </tr>
+      <tr>
+      <td>Apodo</td>
+      <td>${datos.apodo}</td>
+    </tr>
+      <tr>
+        <td>Edad</td>
+        <td>${datos.edad}</td>
+      </tr>
+      <tr>
+        <td>Estado</td>
+        <td>${datos.activa}</td>
+      </tr>
+      <tr>
+        <td>Estadisticas</td>
+        <td>${datos.stats}</td>
+      </tr>
+      <tr>
+        <td>Asociacion </td>
+        <td>${datos.asociacion.meka}</td>
+      </tr>
+      <tr>
+        <td>Asociación Actual</td>
+        <td>${datos.asociacion.ow}</td>
+      </tr>
+    </table>
+  `;
+
+  console.log(datos);
+}
+
+obtenerDatos();

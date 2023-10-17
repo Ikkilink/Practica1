@@ -1,0 +1,18 @@
+{
+    "nombre": "Hanna Song",
+    "apodo" : "D.Va",
+    "edad": 21,
+    "activa": true,
+    "rol" : "Tanque",
+    "stats": [
+      "350 HP",
+      " 300 Armadura",
+      " 150 HP modo piloto",
+      " 8 Habilidades"
+    ],
+    "asociacion": {
+      "meka": "MEKA (Mobile Exo-force of the Korean Army",
+      "ow": "Overwatch"
+     
+    }
+  }
