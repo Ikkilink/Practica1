@@ -6,9 +6,11 @@ clases
 /*alt shift flecha cpia y pega*/
 
 body {
-    background-color: honeydew;
+    background-color: aliceblue;
     color: hotpink;
     font-family: 'Onest', sans-serif;
+    text-align: justify;
+    
     /*estilodeetiqueta
     ejemplo, body, p, a(para links)
     se utilizan para imagenes tambien*/
@@ -54,12 +56,43 @@ img {
     max-width: 40%;
     margin-left: auto;
     float: right; 
-    margin: 5px; 
+    margin: 30px; 
+    margin-top: 6%;
 }
 .size {
     max-width: 50%;
 }
 .fs-40
 {
-    font-size: large;
+    font-size: x-large;
+}
+.color2
+{
+    color: lightpink;
+}
+.cards
+{
+    float: left;
+}
+.mainpad
+{
+    padding-left: 5%;
+}
+table, th, td {
+    border: 1px solid pink;
+ 
+  }
+  th, td {
+    padding: 15px;
+  }
+/*padding  borders
+*/
+
+.container3
+{
+    
+   
+   
+    float: left; 
+    margin: 30px; 
 }
