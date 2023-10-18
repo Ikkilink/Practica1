@@ -28,7 +28,7 @@ $bottondark.addEventListener("click", function(e)
 //leer json asyn function
 
 async function obtenerDatos() {
-    let respuesta = await fetch("js/data.json");
+    let respuesta = await fetch("./docs/js/data.json");
     let datos = await respuesta.json();
     let $info = document.querySelector("#info");
 
